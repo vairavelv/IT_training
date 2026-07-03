@@ -6,7 +6,7 @@ public class check_amstrong {
         if (isArmstrong(num)) {
             System.out.println(num + " is an Armstrong number.");
         } else {
-            System.out.println(num + " is not an Armstrong number.");
+            System.out.println(num + " is not an Armstrong number."); 
         }
     }
 
@@ -15,7 +15,7 @@ public class check_amstrong {
         int sum = 0;
         int digits = String.valueOf(number).length();
 
-        while (number > 0) {
+          while (number > 0) {
             int digit = number % 10;
             sum += Math.pow(digit, digits);
             number /= 10;
