@@ -1,4 +1,4 @@
-package Day_9.class_task;
+package Day_9.Class_Task;
 
 public class Pallidrome{
     public static void main(String[] args) {
